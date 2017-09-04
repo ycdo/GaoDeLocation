@@ -5,6 +5,7 @@
 2、your_key需要在高德地图里申请自己android平台的key
 
 3、如何使用：
+```
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular'; 
 declare let GaoDe:any;
@@ -24,3 +25,4 @@ export class HomePage {
     })
   }
 }
+```
