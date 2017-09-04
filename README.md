@@ -8,7 +8,7 @@
 ```
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular'; 
-## declare let GaoDe:any;
+# declare let GaoDe:any;
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -18,7 +18,7 @@ export class HomePage {
   constructor(public navCtrl: NavController ) { }
   
   getPos(){     
-    ## GaoDe.getCurrentPosition(function (success) {
+    # GaoDe.getCurrentPosition(function (success) {
       alert(JSON.stringify(success));
     },function (error) {
    	  alert(JSON.stringify(error)); 
